@@ -20,7 +20,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 function App() {
   const videoOverlayRef = useRef<HTMLDivElement>(null);
-  const aboutTextRef = useRef<HTMLDivElement | null>(null);;
+  const aboutTextRef = useRef<HTMLDivElement>(null);
   const [isScrolled, setIsScrolled] = useState(false);
   const lenisRef = useRef<Lenis | null>(null);
 

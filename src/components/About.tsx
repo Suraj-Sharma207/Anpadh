@@ -2,7 +2,7 @@ import React from 'react';
 import BookModel from '../BookModel';
 
 interface AboutProps {
-  aboutTextRef: React.RefObject<HTMLDivElement>;
+  aboutTextRef: React.RefObject<HTMLDivElement | null>;
 }
 
 export default function About({ aboutTextRef }: AboutProps) {
